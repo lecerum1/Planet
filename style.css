@@ -1,0 +1,76 @@
+#home{
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  background-image: url("/Images/solar.jpg");
+  background-size:cover;
+  background-position:center ;
+  width: 3000px;
+  justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #FFF;
+    flex-direction: column;
+}
+
+#my-avatar{
+  width: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+h1{
+  font-size: 85px;
+  font-family: 'Lobster', cursive;
+}
+
+p{
+  font-family: 'Lobster';
+  font-size: 60px;
+}
+
+#Lune{
+  background-image: url("/Images/Moon.jpg");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-position: center center; */
+  text-align: center;
+  color: #FFF;
+
+}
+
+#Soleil{
+    background-image: url("/Images/Sun.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-position: center center; */
+    text-align: center;
+    color: #FFF;
+}
+
+#Terre{
+  background-image: url("/Images/Terre.jpg");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-position: center center; */
+  text-align: center;
+  color: #FFF;
+}
